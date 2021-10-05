@@ -1,10 +1,11 @@
+#include<bits/stdc++.h>
+#define MAX 50
 #include<iostream>
 using namespace std;
 int main(){
     int head,req,sum=0,count=0;
     cout<<"SCAN Disk scheduling algorithm"<<endl;
-    cout<<"19001011044"<<endl;
-    cout<<"Promit Sindhu"<<endl;
+    
     cout<<"enter disk size"<<endl;
     int size;
     cin>>size;
@@ -19,7 +20,7 @@ int main(){
     cin>>head;
     cout<<"tell the direction in which pointer will move"<<endl;
        
-    cout<<"total number of seek operation=";
+    cout<<"total number of seek operation:";
     cout<<sum<<endl;
     return 0;
 }
